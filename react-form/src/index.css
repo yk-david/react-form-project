@@ -1,0 +1,55 @@
+*, 
+*::before, 
+**::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  background: #2dd4bf;
+  color: #262626;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input, 
+button {
+  border-radius: 100px;
+  border: 1px solid #0d9488;
+}
+
+input {
+  height: 2rem;
+  text-indent: 10px;
+}
+
+button {
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover, 
+button:focus {
+  background: #115e59;
+  border-color: #042f2e;
+  color: #fff;
+}
+
+button:active {
+  opacity: 0.7;
+}
